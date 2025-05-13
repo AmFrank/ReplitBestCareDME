@@ -15,6 +15,7 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/contact" component={Contact} />
       <Route path="/admin">
         <PrivateRoute>
           <Dashboard />

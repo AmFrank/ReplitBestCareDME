@@ -8,7 +8,6 @@ import MotusHandDetails from "@/components/MotusHandDetails";
 import MotusFootDetails from "@/components/MotusFootDetails";
 import Testimonials from "@/components/Testimonials";
 import CTASection from "@/components/CTASection";
-import ContactForm from "@/components/ContactForm";
 
 const Home: React.FC = () => {
   return (
@@ -23,7 +22,6 @@ const Home: React.FC = () => {
         <MotusFootDetails />
         <Testimonials />
         <CTASection />
-        <ContactForm />
       </main>
       
       <Footer />

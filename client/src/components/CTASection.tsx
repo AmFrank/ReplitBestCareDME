@@ -17,7 +17,7 @@ const CTASection: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Button 
-              onClick={() => scrollToElement('contact')}
+              onClick={() => window.location.href = '/contact'}
               className="bg-white text-primary hover:bg-gray-100"
             >
               Request More Information

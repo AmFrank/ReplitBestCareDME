@@ -76,12 +76,12 @@ const Header: React.FC = () => {
               >
                 Testimonials
               </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
+              <Link 
+                href="/contact"
                 className="text-secondary hover:text-primary font-medium transition duration-150"
               >
                 Contact
-              </button>
+              </Link>
             </nav>
             
             {/* Mobile Menu Button */}
@@ -156,12 +156,13 @@ const Header: React.FC = () => {
                 >
                   Testimonials
                 </button>
-                <button 
-                  onClick={() => scrollToSection('contact')}
+                <Link 
+                  href="/contact"
                   className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-secondary hover:text-primary hover:bg-gray-50"
+                  onClick={closeMenu}
                 >
                   Contact
-                </button>
+                </Link>
                 {isAuthenticated ? (
                   <>
                     <Link href="/admin" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-primary">

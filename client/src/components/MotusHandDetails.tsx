@@ -101,7 +101,7 @@ const MotusHandDetails: React.FC = () => {
                 </ul>
                 
                 <Button 
-                  onClick={() => scrollToElement('contact')}
+                  onClick={() => window.location.href = '/contact'}
                   className="btn-primary"
                 >
                   Request More Information
