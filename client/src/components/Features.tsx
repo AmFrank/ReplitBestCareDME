@@ -1,5 +1,5 @@
 import React from "react";
-import { FlaskRound, Clock, Shield } from "lucide-react";
+import { FlaskRound, Clock, Shield, Star } from "lucide-react";
 
 const Features: React.FC = () => {
   return (
@@ -8,19 +8,19 @@ const Features: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose BestCare DME</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We provide innovative, evidence-based solutions for stroke recovery and rehabilitation.
+            Our FDA-registered neuromuscular electrical stimulation (NMES) technology is revolutionizing stroke recovery.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Feature 1 */}
           <div className="bg-white p-8 rounded-lg shadow-md card-hover">
             <div className="bg-primary bg-opacity-10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
               <FlaskRound className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Clinically Validated</h3>
+            <h3 className="text-xl font-semibold mb-3">Clinically Proven</h3>
             <p className="text-gray-600">
-              Our rehabilitation devices are backed by extensive clinical research and proven results in improving motor function.
+              Our technology is backed by multiple clinical studies demonstrating significant improvements in hand and foot function.
             </p>
           </div>
           
@@ -29,9 +29,9 @@ const Features: React.FC = () => {
             <div className="bg-primary bg-opacity-10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
               <Clock className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Accelerated Recovery</h3>
+            <h3 className="text-xl font-semibold mb-3">FDA-Registered</h3>
             <p className="text-gray-600">
-              Our technology helps patients recover faster through targeted therapy and personalized treatment protocols.
+              All our rehabilitation devices are FDA-registered, ensuring safety and quality in stroke recovery treatment.
             </p>
           </div>
           
@@ -40,9 +40,20 @@ const Features: React.FC = () => {
             <div className="bg-primary bg-opacity-10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
               <Shield className="h-8 w-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Advanced Technology</h3>
+            <h3 className="text-xl font-semibold mb-3">Non-Invasive</h3>
             <p className="text-gray-600">
-              State-of-the-art devices designed with the latest rehabilitation science and engineering principles.
+              Our neuromuscular stimulation technology is completely non-invasive, comfortable, and easy to administer.
+            </p>
+          </div>
+          
+          {/* Feature 4 */}
+          <div className="bg-white p-8 rounded-lg shadow-md card-hover">
+            <div className="bg-primary bg-opacity-10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-6">
+              <Star className="h-8 w-8 text-primary" />
+            </div>
+            <h3 className="text-xl font-semibold mb-3">Expert Support</h3>
+            <p className="text-gray-600">
+              Our team provides comprehensive training and ongoing support for healthcare professionals and patients.
             </p>
           </div>
         </div>

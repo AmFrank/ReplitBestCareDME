@@ -22,6 +22,7 @@ const ContactForm: React.FC = () => {
       email: "",
       phone: "",
       organization: "",
+      position: "",
       interest: "",
       message: ""
     }
