@@ -76,6 +76,7 @@ export const contactFormSchema = insertContactSubmissionSchema.extend({
 export const loginSchema = z.object({
   username: z.string().min(1, "Username is required"),
   password: z.string().min(1, "Password is required"),
+  remember: z.boolean().optional(),
 });
 
 // Types
