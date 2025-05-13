@@ -46,8 +46,8 @@ export async function sendFormSubmissionNotification(submission: ContactSubmissi
       <p><strong>State:</strong> ${submission.state || 'Not provided'}</p>
       
       <h3>Injury Information</h3>
-      <p><strong>Injury Type:</strong> ${injuryTypeMap[submission.injuryType] || submission.injuryType || 'Not provided'}</p>
-      <p><strong>Affected Extremity:</strong> ${affectedExtremityMap[submission.affectedExtremity] || submission.affectedExtremity || 'Not provided'}</p>
+      <p><strong>Injury Type:</strong> ${submission.injuryType ? (injuryTypeMap[submission.injuryType] || submission.injuryType) : 'Not provided'}</p>
+      <p><strong>Affected Extremity:</strong> ${submission.affectedExtremity ? (affectedExtremityMap[submission.affectedExtremity] || submission.affectedExtremity) : 'Not provided'}</p>
       <p><strong>Injury Year:</strong> ${submission.injuryYear || 'Not provided'}</p>
       <p><strong>Currently Doing Therapy:</strong> ${submission.currentTherapy === 'yes' ? 'Yes' : 'No'}</p>
       <p><strong>How They Found Us:</strong> ${submission.referralSource || 'Not provided'}</p>

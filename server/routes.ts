@@ -6,17 +6,26 @@ import session from "express-session";
 import MemoryStore from "memorystore";
 import { z } from "zod";
 import { fromZodError } from "zod-validation-error";
-import * as jwt from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
+import { sendFormSubmissionNotification } from './services/email';
 
 const JWT_SECRET = process.env.JWT_SECRET || 'bestcaredme-secret-key';
 const SESSION_SECRET = process.env.SESSION_SECRET || 'bestcaredme-session-secret';
 
 // Function to send email notifications for new submissions
 const sendEmailNotification = async (submission: any) => {
-  // In a real app, this would use an email service like nodemailer
-  console.log(`Email notification for submission: ${submission.id} from ${submission.firstName} ${submission.lastName}`);
-  // Mark as notified in the database
-  await storage.updateSubmissionNotified(submission.id, true);
+  try {
+    const success = await sendFormSubmissionNotification(submission);
+    if (success) {
+      // Mark as notified in the database
+      await storage.updateSubmissionNotified(submission.id, true);
+      console.log(`Email notification sent for submission: ${submission.id}`);
+    } else {
+      console.error(`Failed to send email notification for submission: ${submission.id}`);
+    }
+  } catch (error) {
+    console.error('Error sending email notification:', error);
+  }
 };
 
 // Function to sync with Google Sheets
