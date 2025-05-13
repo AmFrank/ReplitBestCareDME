@@ -39,7 +39,7 @@ const Submissions: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filterBy, setFilterBy] = useState<string | null>(null);
   
-  const { data: submissions, isLoading } = useQuery({
+  const { data: submissions = [], isLoading } = useQuery<any[]>({
     queryKey: ['/api/submissions'],
   });
 
@@ -82,7 +82,7 @@ const Submissions: React.FC = () => {
   const exportToCSV = () => {
     if (!filteredSubmissions.length) return;
     
-    const headers = ["First Name", "Last Name", "Email", "Phone", "Organization", "Interest", "Message", "Date"];
+    const headers = ["First Name", "Last Name", "Email", "Phone", "Organization", "Position", "Interest", "Message", "Date"];
     
     const csvContent = [
       headers.join(","),
@@ -92,6 +92,7 @@ const Submissions: React.FC = () => {
         `"${sub.email}"`,
         `"${sub.phone || ''}"`,
         `"${sub.organization || ''}"`,
+        `"${sub.position || ''}"`,
         `"${sub.interest}"`,
         `"${sub.message?.replace(/"/g, '""') || ''}"`,
         `"${formatDate(new Date(sub.createdAt))}"`
@@ -211,6 +212,7 @@ const Submissions: React.FC = () => {
                       <TableHead>Email</TableHead>
                       <TableHead>Interest</TableHead>
                       <TableHead>Organization</TableHead>
+                      <TableHead>Position</TableHead>
                       <TableHead>Date</TableHead>
                       <TableHead>Status</TableHead>
                       <TableHead className="w-[80px]"></TableHead>
@@ -225,6 +227,7 @@ const Submissions: React.FC = () => {
                         <TableCell>{submission.email}</TableCell>
                         <TableCell>{submission.interest}</TableCell>
                         <TableCell>{submission.organization || "-"}</TableCell>
+                        <TableCell>{submission.position || "-"}</TableCell>
                         <TableCell>{formatDate(new Date(submission.createdAt))}</TableCell>
                         <TableCell>
                           <div className="flex gap-1 flex-wrap">
