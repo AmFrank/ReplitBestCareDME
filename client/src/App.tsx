@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { AuthProvider } from "./context/AuthContext";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
+import Contact from "@/pages/Contact";
 import Dashboard from "@/pages/admin/Dashboard";
 import Submissions from "@/pages/admin/Submissions";
 import PrivateRoute from "@/components/PrivateRoute";
