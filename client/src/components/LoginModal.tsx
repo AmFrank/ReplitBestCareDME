@@ -4,6 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { X } from "lucide-react";
 import { useMutation } from "@tanstack/react-query";
 import { loginSchema, type LoginFormData } from "@shared/schema";
+import { z } from "zod";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -22,9 +23,7 @@ const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onClose }) => {
   const { login } = useAuth();
   
   const form = useForm<LoginFormData & { remember: boolean }>({
-    resolver: zodResolver(loginSchema.extend({
-      remember: (schema) => schema.optional(),
-    })),
+    resolver: zodResolver(loginSchema),
     defaultValues: {
       username: "",
       password: "",
