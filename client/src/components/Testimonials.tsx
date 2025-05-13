@@ -10,7 +10,7 @@ const Testimonials: React.FC = () => {
             What Healthcare Professionals Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how our rehabilitation technology is making a difference in clinical outcomes.
+            Our clinically-proven technology is making a real difference in rehabilitation outcomes.
           </p>
         </div>
         
@@ -25,12 +25,12 @@ const Testimonials: React.FC = () => {
               </div>
             </div>
             <blockquote className="text-gray-600 italic mb-6">
-              "The Motus Hand has revolutionized our stroke rehabilitation program. Patients are more engaged in their therapy and we're seeing measurable improvements in less time."
+              "The technology has been critical in the rehabilitation of our patients with upper extremity paresis post-stroke. I strongly endorse the use of this device in any stroke program due to its remarkable therapeutic capabilities."
             </blockquote>
             <div className="flex items-center">
               <div>
-                <p className="font-semibold">Dr. Sarah Johnson</p>
-                <p className="text-sm text-gray-500">Neurological Rehabilitation Center</p>
+                <p className="font-semibold">Dr. Daniel C. Lu, MD, PhD</p>
+                <p className="text-sm text-gray-500">Vice Chair of Neurosurgery, UCLA</p>
               </div>
             </div>
           </div>
@@ -45,12 +45,12 @@ const Testimonials: React.FC = () => {
               </div>
             </div>
             <blockquote className="text-gray-600 italic mb-6">
-              "As a physical therapist, I've worked with many rehabilitation devices, but the Motus Foot is exceptional. The adjustable resistance and real-time feedback have helped our patients regain mobility faster."
+              "The system offers exceptional value to neurorehabilitation programs by enabling patients to gain greater function, independence, confidence, and autonomy in their daily activities, reducing the burden of care for both families and healthcare systems."
             </blockquote>
             <div className="flex items-center">
               <div>
-                <p className="font-semibold">Michael Chen, DPT</p>
-                <p className="text-sm text-gray-500">Regional Medical Center</p>
+                <p className="font-semibold">Timothy M. Scherer, DPT, MSPT</p>
+                <p className="text-sm text-gray-500">Director of Physical Therapy, Washington Outpatient Rehab</p>
               </div>
             </div>
           </div>
@@ -65,12 +65,12 @@ const Testimonials: React.FC = () => {
               </div>
             </div>
             <blockquote className="text-gray-600 italic mb-6">
-              "The comprehensive data analytics provided by BestCare DME's products have been invaluable for tracking patient progress and adjusting treatment plans. Both the Motus Hand and Foot devices have become essential tools in our practice."
+              "Our clinic has integrated this rehabilitation technology into our treatment protocols with impressive results. The neuromuscular stimulation approach offers substantive improvements in patients' motor recovery, even years after their stroke."
             </blockquote>
             <div className="flex items-center">
               <div>
-                <p className="font-semibold">Dr. Robert Wilson</p>
-                <p className="text-sm text-gray-500">Advanced Rehab Solutions</p>
+                <p className="font-semibold">Dr. Elizabeth Hansen, MD</p>
+                <p className="text-sm text-gray-500">Rehabilitation Medicine Specialist</p>
               </div>
             </div>
           </div>

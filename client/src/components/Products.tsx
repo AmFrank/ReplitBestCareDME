@@ -9,9 +9,9 @@ const Products: React.FC = () => {
     <section id="products" className="section-padding">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Rehabilitation Solutions</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">FDA-Registered Stroke Recovery Solutions</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Cutting-edge technology for stroke recovery and rehabilitation.
+            Advanced neuromuscular electrical stimulation (NMES) technology proven to help stroke survivors regain function and independence.
           </p>
         </div>
         
@@ -31,20 +31,20 @@ const Products: React.FC = () => {
                 </Badge>
               </div>
               <p className="text-gray-600 mb-6">
-                Advanced hand rehabilitation system designed to help stroke survivors regain hand and finger mobility through targeted therapeutic exercises.
+                FDA-registered neuromuscular electrical stimulation (NMES) device clinically proven to help stroke survivors regain hand and wrist function, even years after their stroke.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Customizable resistance levels</span>
+                  <span>Clinically validated NMES technology</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Interactive therapy software</span>
+                  <span>Non-invasive, portable design</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Progress tracking dashboard</span>
+                  <span>Easy to use at home or clinic</span>
                 </li>
               </ul>
               <Button 
@@ -71,20 +71,20 @@ const Products: React.FC = () => {
                 </Badge>
               </div>
               <p className="text-gray-600 mb-6">
-                Innovative foot and ankle rehabilitation system that helps stroke survivors improve mobility, strength, and coordination in the lower extremities.
+                FDA-registered neuromuscular stimulation device designed to improve foot drop and ankle function for stroke survivors and individuals with neurological conditions.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Multiple exercise patterns</span>
+                  <span>Targets dorsiflexion and plantar flexion</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Adjustable resistance technology</span>
+                  <span>Improves gait and reduces foot drop</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Gait analysis features</span>
+                  <span>Complements traditional physical therapy</span>
                 </li>
               </ul>
               <Button 
