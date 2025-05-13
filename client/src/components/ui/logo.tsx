@@ -39,14 +39,14 @@ const Logo: React.FC<LogoProps> = ({
           Best
         </text>
         
-        {/* Care text in white */}
+        {/* Care text */}
         <text 
           x="300" 
           y="120" 
           fontFamily="Inter, sans-serif" 
           fontSize="130" 
           fontWeight="700" 
-          fill={fillColor || "#FFFFFF"}
+          fill={fillColor || "#4a5568"}
         >
           Care
         </text>

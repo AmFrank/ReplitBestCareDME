@@ -11,13 +11,13 @@ const MotusFootDetails: React.FC = () => {
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">The Motus Foot</h2>
             <p className="text-xl text-gray-600 mb-8">
-              Revolutionary foot and ankle rehabilitation system that helps restore mobility and strength after stroke or neurological injury.
+              An advanced neuromuscular stimulation system designed to improve foot and ankle function in patients with foot drop due to stroke and other neurological conditions.
             </p>
             
             <div className="flex flex-col md:flex-row md:space-x-12">
               <div className="md:w-1/2 mb-8 md:mb-0">
                 <img 
-                  src="https://pixabay.com/get/g420584b281a7a435274f5c05c305b23244afcd309616da9fa0753205658343f5abeb8231903f84ee9888fc3b79de3dc3aeb7ba28b7fb8c33f21505f3713e80b1_1280.jpg" 
+                  src="https://static.wixstatic.com/media/e9ea92_b5d3095303ae48bfb6c0175de193a0c0~mv2.jpg/v1/fill/w_671,h_671,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e9ea92_b5d3095303ae48bfb6c0175de193a0c0~mv2.jpg" 
                   alt="Motus Foot detailed view" 
                   className="rounded-lg shadow-lg w-full"
                 />
@@ -31,9 +31,9 @@ const MotusFootDetails: React.FC = () => {
                       <Check className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Multi-Axis Movement</h4>
+                      <h4 className="font-semibold">Advanced Neuro-Stimulation</h4>
                       <p className="text-gray-600">
-                        Supports dorsiflexion, plantarflexion, inversion, and eversion exercises for comprehensive rehabilitation.
+                        FDA-registered neuromuscular electrical stimulation (NMES) system specifically designed for foot and ankle rehabilitation.
                       </p>
                     </div>
                   </li>
@@ -42,9 +42,9 @@ const MotusFootDetails: React.FC = () => {
                       <Check className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Progressive Resistance Technology</h4>
+                      <h4 className="font-semibold">Targeted Stimulation</h4>
                       <p className="text-gray-600">
-                        Adjustable resistance levels that adapt as patients gain strength and mobility throughout recovery.
+                        Precisely targets ankle dorsiflexors to improve foot drop and gait abnormalities common after stroke.
                       </p>
                     </div>
                   </li>
@@ -53,9 +53,9 @@ const MotusFootDetails: React.FC = () => {
                       <Check className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Gait Training Simulation</h4>
+                      <h4 className="font-semibold">Comprehensive Therapy Protocol</h4>
                       <p className="text-gray-600">
-                        Emulates natural walking patterns to help rebuild neural pathways and improve ambulation.
+                        Complete system with customizable parameters for progressive rehabilitation to improve functional mobility.
                       </p>
                     </div>
                   </li>
@@ -64,9 +64,9 @@ const MotusFootDetails: React.FC = () => {
                       <Check className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Adaptive Fit System</h4>
+                      <h4 className="font-semibold">User-Friendly Design</h4>
                       <p className="text-gray-600">
-                        Accommodates different foot sizes and shapes with quick-adjust straps and padding for comfort.
+                        Easy to use in clinical settings with intuitive controls and adaptable for home-based therapy programs.
                       </p>
                     </div>
                   </li>
@@ -78,25 +78,25 @@ const MotusFootDetails: React.FC = () => {
                     <div className="rounded-full bg-primary bg-opacity-10 p-1 mr-2">
                       <Check className="h-4 w-4 text-primary" />
                     </div>
-                    <span>Improved ankle stability and strength</span>
+                    <span>Improved dorsiflexion and foot positioning</span>
                   </li>
                   <li className="flex items-center">
                     <div className="rounded-full bg-primary bg-opacity-10 p-1 mr-2">
                       <Check className="h-4 w-4 text-primary" />
                     </div>
-                    <span>Enhanced gait pattern and walking confidence</span>
+                    <span>Enhanced walking ability and gait symmetry</span>
                   </li>
                   <li className="flex items-center">
                     <div className="rounded-full bg-primary bg-opacity-10 p-1 mr-2">
                       <Check className="h-4 w-4 text-primary" />
                     </div>
-                    <span>Reduced risk of falls and injuries</span>
+                    <span>Reduced risk of trips and falls</span>
                   </li>
                   <li className="flex items-center">
                     <div className="rounded-full bg-primary bg-opacity-10 p-1 mr-2">
                       <Check className="h-4 w-4 text-primary" />
                     </div>
-                    <span>Greater independence in daily activities</span>
+                    <span>Increased independence in daily mobility</span>
                   </li>
                 </ul>
                 

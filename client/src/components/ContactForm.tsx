@@ -134,7 +134,21 @@ const ContactForm: React.FC = () => {
                     name="organization"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Organization/Facility</FormLabel>
+                        <FormLabel>Company/Organization</FormLabel>
+                        <FormControl>
+                          <Input {...field} />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                  
+                  <FormField
+                    control={form.control}
+                    name="position"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>Title/Position</FormLabel>
                         <FormControl>
                           <Input {...field} />
                         </FormControl>
@@ -162,6 +176,8 @@ const ContactForm: React.FC = () => {
                             <SelectItem value="both-products">Both Products</SelectItem>
                             <SelectItem value="pricing">Pricing Information</SelectItem>
                             <SelectItem value="demo">Product Demonstration</SelectItem>
+                            <SelectItem value="distributor">Distributor Information</SelectItem>
+                            <SelectItem value="clinical-study">Clinical Study Information</SelectItem>
                             <SelectItem value="other">Other</SelectItem>
                           </SelectContent>
                         </Select>

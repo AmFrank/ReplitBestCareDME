@@ -19,7 +19,7 @@ const Products: React.FC = () => {
           {/* Product 1: Motus Hand */}
           <div id="motus-hand" className="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
             <img 
-              src="https://pixabay.com/get/gcaa950b79c5da1036c407427294aa20ed81d21a4065c5a69e905fa843d5601ef867da25e3bdd12a50259ca3f9551e945d88bf961dc2cb27873e66af3ac3c5b75_1280.jpg" 
+              src="https://static.wixstatic.com/media/e9ea92_62cd02b9c90a42d0bbe0c3f764abef24~mv2.jpg/v1/fill/w_671,h_671,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e9ea92_62cd02b9c90a42d0bbe0c3f764abef24~mv2.jpg" 
               alt="The Motus Hand device" 
               className="w-full h-64 object-cover"
             />
@@ -59,7 +59,7 @@ const Products: React.FC = () => {
           {/* Product 2: Motus Foot */}
           <div id="motus-foot" className="bg-white rounded-xl shadow-lg overflow-hidden card-hover">
             <img 
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" 
+              src="https://static.wixstatic.com/media/e9ea92_b5d3095303ae48bfb6c0175de193a0c0~mv2.jpg/v1/fill/w_671,h_671,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e9ea92_b5d3095303ae48bfb6c0175de193a0c0~mv2.jpg" 
               alt="The Motus Foot device" 
               className="w-full h-64 object-cover"
             />
