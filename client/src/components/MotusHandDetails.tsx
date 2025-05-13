@@ -11,13 +11,13 @@ const MotusHandDetails: React.FC = () => {
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">The Motus Hand</h2>
             <p className="text-xl text-gray-600 mb-8">
-              An advanced hand rehabilitation device designed specifically for stroke survivors and individuals with neurological impairments.
+              A revolutionary hand rehabilitation device proven to improve motor function following neurological injuries such as stroke.
             </p>
             
             <div className="flex flex-col md:flex-row md:space-x-12">
               <div className="md:w-1/2 mb-8 md:mb-0">
                 <img 
-                  src="https://images.unsplash.com/photo-1581594549595-35f6edc7b762" 
+                  src="https://static.wixstatic.com/media/e9ea92_62cd02b9c90a42d0bbe0c3f764abef24~mv2.jpg/v1/fill/w_671,h_671,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e9ea92_62cd02b9c90a42d0bbe0c3f764abef24~mv2.jpg" 
                   alt="Motus Hand detailed view" 
                   className="rounded-lg shadow-lg w-full"
                 />
@@ -31,9 +31,9 @@ const MotusHandDetails: React.FC = () => {
                       <Check className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Customizable Therapy Programs</h4>
+                      <h4 className="font-semibold">Neuro-rehabilitation Technology</h4>
                       <p className="text-gray-600">
-                        Adjustable resistance and exercise protocols tailored to each patient's specific needs and recovery stage.
+                        Patented, FDA-registered neuromuscular electrical stimulation hand rehabilitation system.
                       </p>
                     </div>
                   </li>
@@ -42,9 +42,9 @@ const MotusHandDetails: React.FC = () => {
                       <Check className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Interactive Feedback System</h4>
+                      <h4 className="font-semibold">Evidence-Based Treatment</h4>
                       <p className="text-gray-600">
-                        Real-time feedback and progress tracking to motivate patients and optimize therapy outcomes.
+                        Clinically proven to improve motor function after stroke and other neurological injuries.
                       </p>
                     </div>
                   </li>
@@ -53,9 +53,9 @@ const MotusHandDetails: React.FC = () => {
                       <Check className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Ergonomic Design</h4>
+                      <h4 className="font-semibold">Adaptive Treatment Protocol</h4>
                       <p className="text-gray-600">
-                        Comfortable, adjustable fit for patients of all sizes with easy-to-clean materials for clinical settings.
+                        Customizable treatment parameters for individual patient needs and goals.
                       </p>
                     </div>
                   </li>
@@ -64,9 +64,9 @@ const MotusHandDetails: React.FC = () => {
                       <Check className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">Data Analytics Platform</h4>
+                      <h4 className="font-semibold">Comprehensive System</h4>
                       <p className="text-gray-600">
-                        Comprehensive reporting tools for clinicians to track patient progress and optimize treatment plans.
+                        Complete rehabilitation solution with glove, stimulator, accessories, and software.
                       </p>
                     </div>
                   </li>
@@ -78,25 +78,25 @@ const MotusHandDetails: React.FC = () => {
                     <div className="rounded-full bg-primary bg-opacity-10 p-1 mr-2">
                       <Check className="h-4 w-4 text-primary" />
                     </div>
-                    <span>Increased hand strength and dexterity</span>
+                    <span>Significantly improved hand function</span>
                   </li>
                   <li className="flex items-center">
                     <div className="rounded-full bg-primary bg-opacity-10 p-1 mr-2">
                       <Check className="h-4 w-4 text-primary" />
                     </div>
-                    <span>Improved fine motor control</span>
+                    <span>Reduced muscle spasticity</span>
                   </li>
                   <li className="flex items-center">
                     <div className="rounded-full bg-primary bg-opacity-10 p-1 mr-2">
                       <Check className="h-4 w-4 text-primary" />
                     </div>
-                    <span>Enhanced coordination and proprioception</span>
+                    <span>Increased range of motion</span>
                   </li>
                   <li className="flex items-center">
                     <div className="rounded-full bg-primary bg-opacity-10 p-1 mr-2">
                       <Check className="h-4 w-4 text-primary" />
                     </div>
-                    <span>Increased patient engagement in therapy</span>
+                    <span>Enhanced quality of life</span>
                   </li>
                 </ul>
                 
