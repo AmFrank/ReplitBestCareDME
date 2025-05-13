@@ -11,7 +11,7 @@ const MotusHandDetails: React.FC = () => {
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">The Motus Hand</h2>
             <p className="text-xl text-gray-600 mb-8">
-              A revolutionary hand rehabilitation device proven to improve motor function following neurological injuries such as stroke.
+              An FDA-registered neuromuscular electrical stimulation (NMES) device clinically proven to help stroke survivors regain hand and wrist function, even years after their stroke.
             </p>
             
             <div className="flex flex-col md:flex-row md:space-x-12">

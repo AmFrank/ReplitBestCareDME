@@ -11,7 +11,7 @@ const MotusFootDetails: React.FC = () => {
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">The Motus Foot</h2>
             <p className="text-xl text-gray-600 mb-8">
-              An advanced neuromuscular stimulation system designed to improve foot and ankle function in patients with foot drop due to stroke and other neurological conditions.
+              An FDA-registered neuromuscular electrical stimulation (NMES) device specifically designed to improve foot drop and ankle function in stroke survivors, even years after their stroke.
             </p>
             
             <div className="flex flex-col md:flex-row md:space-x-12">

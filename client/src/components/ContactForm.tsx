@@ -60,7 +60,7 @@ const ContactForm: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have questions about our products or want to schedule a demonstration? Fill out the form below and we'll get back to you shortly.
+            Interested in learning more about our innovative stroke recovery devices? Fill out the form below and a representative will contact you shortly.
           </p>
         </div>
         
