@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <Logo variant="white" className="h-10 mb-4" />
             <p className="text-gray-300 mb-4">
-              Innovative rehabilitation solutions for improved patient outcomes.
+              Providing innovative, FDA-registered neuromuscular electrical stimulation devices that help stroke survivors regain function and independence.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-primary transition" aria-label="Facebook">
